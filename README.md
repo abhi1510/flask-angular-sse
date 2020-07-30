@@ -12,9 +12,10 @@ SSE implementation in flask and angular. Flask server streams data on regular in
 
 ```python
 
-1. Create virtual env
+1. cd server
+2. create virtualenv and activate it
 2. pip install -r requirements.txt
-3. python run.py
+3. python app.py
 
 ```
 
