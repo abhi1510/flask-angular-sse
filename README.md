@@ -19,3 +19,22 @@ SSE implementation in flask and angular
 ```
 
 At this point you should have a running flask server. Visit [index](http://localhost:5000)
+
+
+## Angular Client
+
+- sse implementation as observable
+- subscribe and unsubscribe sse
+- home, controller (table) and monitor (chart) components
+
+**Set Up**
+
+```javascript
+
+1. cd client
+2. npm install
+3. npm start
+
+```
+
+At this point you should have a running node server. Visit [index](http://localhost:4200)
