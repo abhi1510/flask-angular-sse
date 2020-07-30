@@ -1,0 +1,18 @@
+<table class="table text-center table-bordered">
+  <thead>
+    <tr>
+      <th>Symbol</th>
+      <th>Bid</th>
+      <th>Ask</th>
+      <th>Time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let stock of stocks | keyvalue">
+      <td>{{stock.key}}</td>
+      <td>{{stock.value.bid}}</td>
+      <td>{{stock.value.ask}}</td>
+      <td>{{stock.value.timestamp}}</td>
+    </tr>
+  </tbody>
+</table>
