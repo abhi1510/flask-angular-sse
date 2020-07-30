@@ -1,5 +1,5 @@
 # flask-angular-sse
-SSE implementation in flask and angular
+SSE implementation in flask and angular. Flask server streams data on regular interval. Angular client has an implementation of EventSource as Observable. If any component needs to get the sse, simple inject Sse as provider and subscribe to it in ngOnInit and unsubscribe in ngOnDestroy. 
 
 
 ## Flask Server
