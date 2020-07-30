@@ -2,13 +2,13 @@
 SSE implementation in flask and angular
 
 
-**Flask Server**
+## Flask Server
 
 - random stock implementation
 - stream stock data every second
 - cross origins whitelisting 
 
-## Set Up
+**Set Up**
 
 ```python
 
@@ -18,5 +18,4 @@ SSE implementation in flask and angular
 
 ```
 
-At this point you should have a running flask server.
-Visit [index](http://localhost:5000)
+At this point you should have a running flask server. Visit [index](http://localhost:5000)
